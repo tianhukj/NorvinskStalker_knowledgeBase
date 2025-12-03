@@ -20,16 +20,16 @@ const getAvatarUrl = (name: string) => `https://avatars.githubusercontent.com/u/
 
 export const creators: Creator[] = [
   {
-    name: 'Samuel是不是好奇猫',
+    name: '天互科技',
     avatar: '',
-    username: 'SamuelNOTCuriousMeow',
-    title: '《诺文斯克潜行者》整合者',
-    desc: '臭打游戏的，MOD玩家，AI高强度依赖者',
+    username: 'Tianhu Technology',
+    title: '科技的奥秘',
+    desc: '科技',
     links: [
-      { type: 'github', icon: 'github', link: 'https://github.com/windersvista' },
+      { type: 'github', icon: 'github', link: 'https://github.com/tianhukj' },
     ],
-    nameAliases: ['windersvista', '好奇猫', 'Samuel'],
-    emailAliases: ['xinxin.ily@gmail.com'],
+    nameAliases: ['Tianhu', '天互', 'Samuel'],
+    emailAliases: ['tianhukj@outlook.com'],
   }
 ].map<Creator>((c) => {
   c.avatar = c.avatar || getAvatarUrl(c.username)
